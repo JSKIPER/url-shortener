@@ -2,6 +2,7 @@
 A simple desktop GUI application for shortening and managing URLs, with a Flask server for redirection.
 
 ## Table of Contents
+- [Structure](#structure)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
@@ -9,6 +10,19 @@ A simple desktop GUI application for shortening and managing URLs, with a Flask 
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
+## Structure
+```bash
+📁 url-shortener-app/
+├── main.py                  # Entry point with PySide6 and Flask setup
+├── flask_server.py          # Flask server with redirect route
+├── connection.py            # Database handler using QtSql
+├── ui_main.py               # Auto-generated UI from Qt Designer
+├── links_db.db              # SQLite database (excluded with .gitignore)
+├── requirements.txt         # Project dependencies
+├── README.md                # Project documentation
+├── .gitignore               # Git ignore rules
+└── LICENSE
+```
 ## Features
 - Shorten any long URL
 - Automatically generates a short code
