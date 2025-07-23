@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# PyCharm project files
+.idea/
+
+# SQLite database file (optional — if you don’t want to push it)
+*.db
+
+# OS-generated files
+.DS_Store
+Thumbs.db
