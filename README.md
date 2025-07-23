@@ -12,7 +12,7 @@ A simple desktop GUI application for shortening and managing URLs, with a Flask 
 
 ## Structure
 ```bash
-📁 url-shortener-app/
+📁 url-shortener/
 ├── main.py                  # Entry point with PySide6 and Flask setup
 ├── flask_server.py          # Flask server with redirect route
 ├── connection.py            # Database handler using QtSql
